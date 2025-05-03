@@ -1,0 +1,59 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url("../../../public/assets/image/ut.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../public/assets/image/overlay.png");
+  z-index: 50;
+}
+
+/* Hero content */
+.hero_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero_content button {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 50rem;
+  color: #fff;
+  font-family: "jet", sans-serif;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+}
+
+.career h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "sans", sans-serif;
+  font-size: 4rem;
+  line-height: normal;
+  text-transform: capitalize;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -0.025rem;
+}

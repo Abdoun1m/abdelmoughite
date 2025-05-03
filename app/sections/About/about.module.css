@@ -1,0 +1,50 @@
+.about {
+  height: fit-content;
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 15rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_intro {
+  overflow: hidden;
+  position: relative;
+}
+
+.head_intro h1 {
+  color: white;
+  font-family: "grotesk", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.image_div {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* background-color: #f0f0f0; */
+}
+
+.text_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3rem;
+  flex: 1;
+}
+
+.text_div p {
+  color: white;
+  font-family: "sans", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.025rem;
+}

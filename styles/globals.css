@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0b0011;
+  height: 100%;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "jet";
+  src: url("../public/fonts/jet/JetBrainsMono-ExtraBold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "jet";
+  src: url("../public/fonts/jet/JetBrainsMono-Medium.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "jet";
+  src: url("../public/fonts/jet/JetBrainsMono-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "jet";
+  src: url("../public/fonts/jet/JetBrainsMono-Light.woff2");
+  font-weight: 100;
+}
+
+/* General Sans */
+@font-face {
+  font-family: "sans";
+  src: url("../public/fonts/general/GeneralSans-Variable.woff2");
+  font-weight: 100 900;
+}

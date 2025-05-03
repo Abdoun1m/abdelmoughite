@@ -1,0 +1,11 @@
+.earth {
+  height: fit-content;
+  width: 100%;
+}
+
+.earth img {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  z-index: 9999;
+}

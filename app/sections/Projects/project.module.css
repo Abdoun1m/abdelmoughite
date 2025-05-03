@@ -1,0 +1,32 @@
+.projects {
+  padding: 5rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.head_intro {
+  overflow: hidden;
+  position: relative;
+}
+
+.head_intro h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+  font-family: "sans", sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+/* Project Grid */
+.project_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
