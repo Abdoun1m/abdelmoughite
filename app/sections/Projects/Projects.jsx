@@ -1,8 +1,7 @@
-import React from "react";
+import ProjectCard from "@/components/UI/ProjectCard/ProjectCard";
+import { ProjectsData } from "@/constants/data";
 import { motion } from "framer-motion";
 import styles from "./project.module.css";
-import { ProjectsData } from "@/constants/data";
-import ProjectCard from "@/components/ProjectCard/ProjectCard";
 
 const DURATION = 1.5; // Animation duration
 const EASE = [0.6, -0.05, 0.01, 0.99]; // Animation easing

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import styles from "./page.module.css";
-import { About, Hero, Projects } from "./sections";
+import { About, Hero, Projects, Skills } from "./sections";
 
 export default function Home() {
   // Parallex Effect
@@ -31,6 +31,7 @@ export default function Home() {
       {/*  */}
       <About />
       <Projects />
+      
     </main>
   );
 }
